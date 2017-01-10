@@ -1,0 +1,42 @@
+[
+  {
+    "name": "HTML 5",
+    "img": "images/skills/html5.jpg"
+  },
+  {
+    "name": "CSS 3",
+    "img": "images/skills/css3.jpg"
+  },
+  {
+    "name": "JavaScript",
+    "img": "images/skills/js.jpg"
+  },
+  {
+    "name": "jQuery",
+    "img": "images/skills/jquery.jpg"
+  },
+  {
+    "name": "Sass",
+    "img": "images/skills/sass.jpg"
+  },
+  {
+    "name": "Jade/Pug",
+    "img": "images/skills/pug.jpg"
+  },
+  {
+    "name": "Grunt",
+    "img": "images/skills/grunt.jpg"
+  },
+  {
+    "name": "Handlebars",
+    "img": "images/skills/handlebars.jpg"
+  },
+  {
+    "name": "Bower",
+    "img": "images/skills/bower.jpg"
+  },
+  {
+    "name": "Node Package Manager",
+    "img": "images/skills/npm.jpg"
+  }
+]

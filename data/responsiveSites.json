@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Contact Manager",
+    "link": "https://hsingh-contact-manager.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/my_projects/tree/master/contact_manager",
+    "img": "images/responsive-sites/contact-manager.jpg"
+  },
+  {
+    "name": "Todo",
+    "link": "http://hsingh-todo.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/my_projects/tree/master/todo",
+    "img": "images/responsive-sites/todo.jpg"
+  },
+  {
+    "name": "News",
+    "link": "http://hsingh-news.herokuapp.com",
+    "githubLink": "https://github.com/harpreetsingh500/news",
+    "img": "images/responsive-sites/news.jpg"
+  },
+  {
+    "name": "LOL Champions",
+    "link": "http://hsingh-lol.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/my_projects/tree/master/league_of_legends",
+    "img": "images/responsive-sites/lol-champions.jpg"
+  },
+  {
+    "name": "Random Quotes",
+    "link": "http://hsingh-random-quotes.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/freecodecamp-projects/tree/master/random_quote_machine",
+    "img": "images/responsive-sites/random-quotes.jpg"
+  },
+  {
+    "name": "Twitch Tv",
+    "link": "http://hsingh-twitch-tv.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/freecodecamp-projects/tree/master/twitch_tv",
+    "img": "images/responsive-sites/twitch-tv.jpg"
+  },
+  {
+    "name": "Wikipedia Viewer",
+    "link": "http://hsingh-wiki.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/freecodecamp-projects/tree/master/wikipedia_viewer",
+    "img": "images/responsive-sites/wikipedia-viewer.jpg"
+  },
+  {
+    "name": "Simon Game",
+    "link": "http://hsingh-simon-game.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/freecodecamp-projects/tree/master/simon_game",
+    "img": "images/responsive-sites/simon-game.jpg"
+  },
+  {
+    "name": "Tic Tac Toe",
+    "link": "http://hsingh-tic-tac-toe.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/freecodecamp-projects/tree/master/tic_tac_toe",
+    "img": "images/responsive-sites/tic-tac-toe.jpg"
+  },
+  {
+    "name": "Pomodoro Clock",
+    "link": "http://hsingh-pomodoro-clock.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/freecodecamp-projects/tree/master/pomodoro_clock",
+    "img": "images/responsive-sites/pomodoro-clock.jpg"
+  },
+  {
+    "name": "Calculator",
+    "link": "http://hsingh-calculator.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/freecodecamp-projects/tree/master/javascript_calculator",
+    "img": "images/responsive-sites/calculator.jpg"
+  },
+  {
+    "name": "Local Weather",
+    "link": "https://hsingh-weather.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/freecodecamp-projects/tree/master/show_local_weather",
+    "img": "images/responsive-sites/local-weather.jpg"
+  },
+  {
+    "name": "Encode Message",
+    "link": "http://hsingh-encode-message.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/my_projects/tree/master/encode_message",
+    "img": "images/responsive-sites/encode-message.jpg"
+  },
+  {
+    "name": "Guess a Word",
+    "link": "http://hsingh-guess-a-word.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/my_projects/tree/master/guess_a_word",
+    "img": "images/responsive-sites/guess-a-word.jpg"
+  }
+]

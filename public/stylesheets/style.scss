@@ -1,0 +1,204 @@
+// compile
+
+@import 'reset';
+@import 'variables';
+@import 'mixin';
+@import 'functions';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 18px arial, sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+#arrow-img {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  cursor: pointer;
+}
+
+header {
+  background: color(headerBG);
+  padding: 25px 0;
+  @include mediaQuery(500px) {
+    padding: 15px 0;
+  }
+
+  nav {
+    li {
+      @include grid(4, 2%);
+      @include listDisplay();
+      @include mediaQuery(500px) {
+        margin-bottom: 15px;
+        font-size: 20px;
+        @include grid(1, 0);
+        @include lastChild();
+      }
+    }
+
+    a {
+      color: color(navLink);
+      &:hover {
+        color: color(navLinkHover);
+      }
+    }
+  }
+}
+
+#about,
+#projects,
+#skills {
+  padding: 20px;
+}
+
+#about {
+  p {
+    text-align: center;
+    font-size: $smallFontSize;
+    margin-bottom: 10px;
+    @include lastChild();
+  }
+}
+
+#projects {
+  background: color(projectsBG);
+
+  nav {
+    margin-bottom: 20px;
+    text-align: center;
+
+    li {
+      margin-bottom: 0;
+      @include grid(2, 2%);
+      @include listDisplay();
+      @include mediaQuery(600px) {
+        margin-bottom: 15px;
+        @include grid(1, 0%);
+        @include lastChild();
+      }
+    }
+  }
+}
+
+.button {
+  width: 100%;
+  color: color(button);
+  padding: 8px 15px;
+  background: color(buttonBG);
+  &:hover {
+    @include highlight();
+  }
+}
+
+.highlight {
+  @include highlight;
+}
+
+#responsiveSites,
+#staticSites {
+  li {
+    margin-bottom: 25px;
+    @include grid(4, 2%);
+    @include listDisplay();
+    @include mediaQuery(1000px) {
+      @include grid(2, 2%);
+    }
+    @include mediaQuery(600px) {
+      @include grid(1, 0%);
+      @include lastChild();
+    }
+
+    > a {
+      width: 100%;
+      border: 1px solid color(imgBorder);
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    p {
+      margin-bottom: 8px;
+      @include lastChild();
+      @include mediaQuery(600px) {
+        font-size: $smallFontSize;
+      }
+
+      a {
+        color: black;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+#staticSites {
+  display: none;
+}
+
+#skills {
+  li {
+    margin-bottom: 15px;
+    @include grid(5, 2%);
+    @include listDisplay();
+    vertical-align: middle;
+    @include mediaQuery(1000px) {
+      @include grid(4, 2%);
+    }
+    @include mediaQuery(500px) {
+      @include grid(2, 2%);
+      &:nth-child(9n) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  img {
+    width: 50%;
+  }
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+  background: color(footerBG);
+}
+
+#contact {
+  p {
+    margin-bottom: 10px;
+    @include mediaQuery(600px) {
+      font-size: $smallFontSize;
+    }
+  }
+
+  li {
+    margin: 0 10px;
+    @include listDisplay();
+  }
+
+  a {
+    width: 60px;
+  }
+
+  img {
+    width: 100%;
+  }
+}

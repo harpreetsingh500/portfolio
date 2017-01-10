@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Adoptly",
+    "link": "http://hsingh-adoptly.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/codecademy-projects/tree/master/html_projects/adoptly",
+    "img": "images/static-sites/adoptly.jpg"
+  },
+  {
+    "name": "Best Bite",
+    "link": "http://hsingh-best-bite.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/codecademy-projects/tree/master/html_projects/best_bite",
+    "img": "images/static-sites/best-bite.jpg"
+  },
+  {
+    "name": "Blog",
+    "link": "http://hsingh-blog.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/my_projects/tree/master/blog-project",
+    "img": "images/static-sites/blog.jpg"
+  },
+  {
+    "name": "Bolt Network",
+    "link": "http://hsingh-bolt-network.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/codecademy-projects/tree/master/html_projects/bolt_network",
+    "img": "images/static-sites/bolt-network.jpg"
+  },
+  {
+    "name": "Broadway",
+    "link": "http://hsingh-broadway.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/codecademy-projects/tree/master/html_projects/broadway",
+    "img": "images/static-sites/broadway.jpg"
+  },
+  {
+    "name": "Clean Blog",
+    "link": "http://hsingh-blog.herokuapp.com",
+    "githubLink": "https://github.com/harpreetsingh500/blog",
+    "img": "images/static-sites/clean-blog.jpg"
+  },
+  {
+    "name": "Excursion",
+    "link": "http://hsingh-excursion.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/codecademy-projects/tree/master/html_projects/excursion",
+    "img": "images/static-sites/excursion.jpg"
+  },
+  {
+    "name": "Headlines",
+    "link": "http://hsingh-headlines.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/codecademy-projects/tree/master/html_projects/headlines",
+    "img": "images/static-sites/headlines.jpg"
+  },
+  {
+    "name": "Innovation Cloud",
+    "link": "http://hsingh-innovation-cloud.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/codecademy-projects/tree/master/html_projects/innovation_cloud",
+    "img": "images/static-sites/innovation-cloud.jpg"
+  },
+  {
+    "name": "Junction",
+    "link": "http://hsingh-junction.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/codecademy-projects/tree/master/html_projects/junction",
+    "img": "images/static-sites/junction.jpg"
+  },
+  {
+    "name": "Move",
+    "link": "http://hsingh-move.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/codecademy-projects/tree/master/html_projects/move",
+    "img": "images/static-sites/move.jpg"
+  },
+  {
+    "name": "Pocketbook",
+    "link": "http://hsingh-pocketbook.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/codecademy-projects/tree/master/html_projects/pocketbook",
+    "img": "images/static-sites/pocketbook.jpg"
+  },
+  {
+    "name": "Red Eye Photography",
+    "link": "http://hsingh-red-eye-photography.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/codecademy-projects/tree/master/html_projects/red_eye_photography",
+    "img": "images/static-sites/red-eye-photography.jpg"
+  },
+  {
+    "name": "Shutterbugg",
+    "link": "http://hsingh-shutterbugg.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/codecademy-projects/tree/master/html_projects/shutterbugg",
+    "img": "images/static-sites/shutterbugg.jpg"
+  },
+  {
+    "name": "Tribute Page",
+    "link": "http://hsingh-tribute-page.surge.sh",
+    "githubLink": "https://github.com/harpreetsingh500/freecodecamp-projects/tree/master/tribute_page",
+    "img": "images/static-sites/tribute-page.jpg"
+  }
+]

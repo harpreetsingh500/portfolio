@@ -1,0 +1,80 @@
+doctype html
+html
+  head
+    title= title
+    meta(name="viewport" content="width=device-width,initial-scale=1.0")
+    link(rel='stylesheet', href='/stylesheets/style.min.css')
+
+  body
+    header
+      nav
+        ul
+          li
+            a(href='#about') About
+          li
+            a(href='#projects') Projects
+          li
+            a(href='#skills') Skills
+          li
+            a(href='#contact') Contact
+    
+    main
+      #about
+        h2 About
+        p My name is Harpreet Singh and I am currently a front end developer working towards becoming a full-stack developer. I am based in Mansfield, TX which is near Dallas, but I am willing to relocate.
+        p Every project that I have built I make sure that they are all responsive and look good on mobile devices. I practice writing clean code which can be read easily by another developer or my future self.
+        p I am also willing to learn any new technolgies that come out.
+        
+      #projects
+        h2 Projects
+        
+        nav
+          ul
+            li
+              a(href='#' data-name='responsive' class='button highlight') Responsive Sites
+            li
+              a(href='#' data-name='static' class='button') Static Sites
+        
+        #responsiveSites
+          ul
+            each site in responsiveSites
+              li
+                a(href='#{site.link}' target='_blank')
+                  img(src='#{site.img}')
+                p #{'Project name: ' + site.name}
+                p Github 
+                  a(href='#{site.githubLink}' target='_blank') Link
+        
+        #staticSites
+          ul
+            each site in staticSites
+              li
+                a(href='#{site.link}' target='_blank')
+                  img(src='#{site.img}')
+                p #{'Project name: ' + site.name}
+                p Github 
+                  a(href='#{site.githubLink}' target='_blank') Link
+      
+      #skills
+        h2 Skills
+        ul
+          each skill in skills
+            li
+              img(src='#{skill.img}' title='#{skill.name}')
+                  
+    footer
+      #contact
+        h2 Contact
+        p 682-702-9892
+        p harpreetsingh5000@gmail.com
+        ul
+          li
+            a(href='https://github.com/harpreetsingh500' target='_blank')   
+              img(src='images/social/github.jpg')
+          li
+            a(href='https://www.codewars.com/users/harpreetsingh500' target='_blank')
+              img(src='images/social/codewars.jpg')
+              
+    img(src='images/general/arrow-top.jpg' id='arrow-img')
+
+    script(src='javascripts/all.js')

@@ -1,0 +1,31 @@
+@mixin grid($cols, $margin) {
+  width: (100% - (($cols - 1 ) * $margin)) / $cols;
+  margin-right: $margin;
+
+  &:nth-child(#{$cols}n) {
+    margin-right: 0;
+  }
+}
+
+@mixin lastChild() {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@mixin highlight() {
+  background: color(highlight);
+  font-weight: bold;
+}
+
+@mixin listDisplay() {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+@mixin mediaQuery($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
