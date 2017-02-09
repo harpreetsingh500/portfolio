@@ -69,9 +69,11 @@ header {
 
 #about {
   p {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 10px;
     text-align: center;
     font-size: $smallFontSize;
-    margin-bottom: 10px;
     @include lastChild();
   }
 }
@@ -110,8 +112,8 @@ header {
   @include highlight;
 }
 
-#responsiveSites,
-#staticSites {
+#jquery-projects,
+#html-css-projects {
   li {
     margin-bottom: 25px;
     @include grid(4, 2%);
@@ -149,7 +151,7 @@ header {
   }
 }
 
-#staticSites {
+#jquery-projects {
   display: none;
 }
 

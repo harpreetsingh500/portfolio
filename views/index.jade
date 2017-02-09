@@ -31,13 +31,13 @@ html
         nav
           ul
             li
-              a(href='#' data-name='responsive' class='button highlight') Responsive Sites
+              a(href='#' data-name='html-css-projects' class='button highlight') HTML/CSS Projects
             li
-              a(href='#' data-name='static' class='button') Static Sites
+              a(href='#' data-name='jquery-projects' class='button') jQuery Projects
         
-        #responsiveSites
+        #html-css-projects
           ul
-            each site in responsiveSites
+            each site in htmlCssProjects
               li
                 a(href='#{site.link}' target='_blank')
                   img(src='#{site.img}')
@@ -45,9 +45,9 @@ html
                 p Github 
                   a(href='#{site.githubLink}' target='_blank') Link
         
-        #staticSites
+        #jquery-projects
           ul
-            each site in staticSites
+            each site in jQueryProjects
               li
                 a(href='#{site.link}' target='_blank')
                   img(src='#{site.img}')

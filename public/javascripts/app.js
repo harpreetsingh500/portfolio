@@ -10,14 +10,14 @@ function scroll(e, amount) {
 $('#projects nav a').on('click', function(e) {
   e.preventDefault();
 
-  $('#responsiveSites, #staticSites').hide();
+  $('#jquery-projects, #html-css-projects').hide();
   $('.highlight').removeClass('highlight');
   $(this).addClass('highlight');
 
-  if ($(this).data('name') === 'responsive') {
-    $('#responsiveSites').show();
+  if ($(this).data('name') === 'jquery-projects') {
+    $('#jquery-projects').show();
   } else {
-    $('#staticSites').show();
+    $('#html-css-projects').show();
   }
 });
 

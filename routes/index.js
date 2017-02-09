@@ -3,14 +3,14 @@ var router = express.Router();
 var fs = require('fs');
 
 router.get('/', function(req, res, next) {
-  var staticSites = fs.readFileSync('data/staticSites.json', 'utf8'),
-      responsiveSites = fs.readFileSync('data/responsiveSites.json', 'utf8'),
+  var htmlCssProjects = fs.readFileSync('data/html-css-projects.json', 'utf8'),
+      jQueryProjects = fs.readFileSync('data/jquery-projects.json', 'utf8'),
       skills = fs.readFileSync('data/skills.json', 'utf8');
 
   res.render('index', {
     title: 'Portfolio',
-    staticSites: JSON.parse(staticSites),
-    responsiveSites: JSON.parse(responsiveSites),
+    htmlCssProjects: JSON.parse(htmlCssProjects),
+    jQueryProjects: JSON.parse(jQueryProjects),
     skills: JSON.parse(skills)
   });
 });
