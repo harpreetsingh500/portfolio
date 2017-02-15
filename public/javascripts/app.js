@@ -2,7 +2,7 @@ function scroll(e, amount) {
   e.preventDefault();
   amount = (amount === undefined) ? 0 : amount;
 
-  $('body').animate({
+  $('body, html').animate({
     scrollTop: amount
   }, 1500);
 }
